@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A00000124AB000000000001 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00000224AB000000000001 /* main.m */; };
+		8A00000324AB000000000001 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00000424AB000000000001 /* AppDelegate.m */; };
+		8A00000524AB000000000001 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00000624AB000000000001 /* ViewController.m */; };
+		8A00000724AB000000000001 /* SKOTankBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00000824AB000000000001 /* SKOTankBuilder.m */; };
+		8A00000924AB000000000001 /* SKOEventEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00000A24AB000000000001 /* SKOEventEngine.m */; };
+		8A00000B24AB000000000001 /* SKOCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00000C24AB000000000001 /* SKOCommon.m */; };
+		8A00000F24AB000000000001 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8A00001024AB000000000001 /* AppIcon.icns */; };
+		8A00008124AB000000000001 /* CavernRock.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A0010A124AB000000000001 /* CavernRock.png */; };
+		8A00008224AB000000000001 /* WaterSurface.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A0010A224AB000000000001 /* WaterSurface.png */; };
+		8A00008324AB000000000001 /* CavernEnvironment.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A0010A324AB000000000001 /* CavernEnvironment.jpg */; };
+		8A00110424AB000000000001 /* SKOHelpWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00110224AB000000000001 /* SKOHelpWindowController.m */; };
+		8A00110524AB000000000001 /* SKOHelpWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00110224AB000000000001 /* SKOHelpWindowController.m */; };
+		8A00110624AB000000000001 /* SKOHelpWindowControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00110324AB000000000001 /* SKOHelpWindowControllerTests.m */; };
+		8A0010C524AB000000000001 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00000624AB000000000001 /* ViewController.m */; };
+		8A0010C624AB000000000001 /* SKOTankBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00000824AB000000000001 /* SKOTankBuilder.m */; };
+		8A0010C724AB000000000001 /* SKOEventEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00000A24AB000000000001 /* SKOEventEngine.m */; };
+		8A0010C824AB000000000001 /* SKOCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00000C24AB000000000001 /* SKOCommon.m */; };
+		8A0010C924AB000000000001 /* SKOTankBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0010C124AB000000000001 /* SKOTankBuilderTests.m */; };
+		8A0010CA24AB000000000001 /* SKOEventEngineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0010C224AB000000000001 /* SKOEventEngineTests.m */; };
+		8A0010CB24AB000000000001 /* ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0010C324AB000000000001 /* ViewControllerTests.m */; };
+		8A0010CC24AB000000000001 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0010D124AB000000000001 /* XCTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A00001124AB000000000001 /* SuperKamiokande.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperKamiokande.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A00009124AB000000000001 /* SuperKamiokandeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperKamiokandeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A00000224AB000000000001 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A00000424AB000000000001 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A00000624AB000000000001 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8A00000824AB000000000001 /* SKOTankBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKOTankBuilder.m; sourceTree = "<group>"; };
+		8A00000A24AB000000000001 /* SKOEventEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKOEventEngine.m; sourceTree = "<group>"; };
+		8A00000C24AB000000000001 /* SKOCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKOCommon.m; sourceTree = "<group>"; };
+		8A00000E24AB000000000001 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A00001024AB000000000001 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		8A00002024AB000000000001 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A00002124AB000000000001 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8A00002224AB000000000001 /* SKOTankBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKOTankBuilder.h; sourceTree = "<group>"; };
+		8A00002324AB000000000001 /* SKOEventEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKOEventEngine.h; sourceTree = "<group>"; };
+		8A00002424AB000000000001 /* SKOCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKOCommon.h; sourceTree = "<group>"; };
+		8A00110124AB000000000001 /* SKOHelpWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKOHelpWindowController.h; sourceTree = "<group>"; };
+		8A00110224AB000000000001 /* SKOHelpWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKOHelpWindowController.m; sourceTree = "<group>"; };
+		8A00110324AB000000000001 /* SKOHelpWindowControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKOHelpWindowControllerTests.m; sourceTree = "<group>"; };
+		8A0010A124AB000000000001 /* CavernRock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CavernRock.png; sourceTree = "<group>"; };
+		8A0010A224AB000000000001 /* WaterSurface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WaterSurface.png; sourceTree = "<group>"; };
+		8A0010A324AB000000000001 /* CavernEnvironment.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CavernEnvironment.jpg; sourceTree = "<group>"; };
+		8A0010C124AB000000000001 /* SKOTankBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKOTankBuilderTests.m; sourceTree = "<group>"; };
+		8A0010C224AB000000000001 /* SKOEventEngineTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKOEventEngineTests.m; sourceTree = "<group>"; };
+		8A0010C324AB000000000001 /* ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
+		8A0010D124AB000000000001 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = System/Library/Frameworks/XCTest.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A00003024AB000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A00009624AB000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0010CC24AB000000000001 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A00004024AB000000000001 = {
+			isa = PBXGroup;
+			children = (
+				8A00004124AB000000000001 /* SuperKamiokande */,
+				8A0010D024AB000000000001 /* SuperKamiokandeTests */,
+				8A00004224AB000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A00004124AB000000000001 /* SuperKamiokande */ = {
+			isa = PBXGroup;
+			children = (
+				8A00000224AB000000000001 /* main.m */,
+				8A00002024AB000000000001 /* AppDelegate.h */,
+				8A00000424AB000000000001 /* AppDelegate.m */,
+				8A00002124AB000000000001 /* ViewController.h */,
+				8A00000624AB000000000001 /* ViewController.m */,
+				8A00002224AB000000000001 /* SKOTankBuilder.h */,
+				8A00000824AB000000000001 /* SKOTankBuilder.m */,
+				8A00002324AB000000000001 /* SKOEventEngine.h */,
+				8A00000A24AB000000000001 /* SKOEventEngine.m */,
+				8A00002424AB000000000001 /* SKOCommon.h */,
+				8A00000C24AB000000000001 /* SKOCommon.m */,
+				8A00110124AB000000000001 /* SKOHelpWindowController.h */,
+				8A00110224AB000000000001 /* SKOHelpWindowController.m */,
+				8A00000E24AB000000000001 /* Info.plist */,
+				8A00001024AB000000000001 /* AppIcon.icns */,
+				8A0010A024AB000000000001 /* Textures */,
+			);
+			path = SuperKamiokande;
+			sourceTree = "<group>";
+		};
+		8A0010A024AB000000000001 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				8A0010A124AB000000000001 /* CavernRock.png */,
+				8A0010A224AB000000000001 /* WaterSurface.png */,
+				8A0010A324AB000000000001 /* CavernEnvironment.jpg */,
+			);
+			path = Textures;
+			sourceTree = "<group>";
+		};
+		8A00004224AB000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A00001124AB000000000001 /* SuperKamiokande.app */,
+				8A00009124AB000000000001 /* SuperKamiokandeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A0010D024AB000000000001 /* SuperKamiokandeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A0010C124AB000000000001 /* SKOTankBuilderTests.m */,
+				8A0010C224AB000000000001 /* SKOEventEngineTests.m */,
+				8A0010C324AB000000000001 /* ViewControllerTests.m */,
+				8A00110324AB000000000001 /* SKOHelpWindowControllerTests.m */,
+			);
+			path = SuperKamiokandeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A00009024AB000000000001 /* SuperKamiokandeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A00009224AB000000000001 /* Build configuration list for PBXNativeTarget "SuperKamiokandeTests" */;
+			buildPhases = (
+				8A00009524AB000000000001 /* Sources */,
+				8A00009624AB000000000001 /* Frameworks */,
+				8A00009724AB000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperKamiokandeTests;
+			productName = SuperKamiokandeTests;
+			productReference = 8A00009124AB000000000001 /* SuperKamiokandeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A00005024AB000000000001 /* SuperKamiokande */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A00005124AB000000000001 /* Build configuration list for PBXNativeTarget "SuperKamiokande" */;
+			buildPhases = (
+				8A00005224AB000000000001 /* Sources */,
+				8A00003024AB000000000001 /* Frameworks */,
+				8A00005324AB000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperKamiokande;
+			productName = SuperKamiokande;
+			productReference = 8A00001124AB000000000001 /* SuperKamiokande.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A00006024AB000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8A00005024AB000000000001 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 8A00006124AB000000000001 /* Build configuration list for PBXProject "SuperKamiokande" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A00004024AB000000000001;
+			productRefGroup = 8A00004224AB000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A00005024AB000000000001 /* SuperKamiokande */,
+				8A00009024AB000000000001 /* SuperKamiokandeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A00005324AB000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A00000F24AB000000000001 /* AppIcon.icns in Resources */,
+				8A00008124AB000000000001 /* CavernRock.png in Resources */,
+				8A00008224AB000000000001 /* WaterSurface.png in Resources */,
+				8A00008324AB000000000001 /* CavernEnvironment.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A00009724AB000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A00005224AB000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A00000124AB000000000001 /* main.m in Sources */,
+				8A00000324AB000000000001 /* AppDelegate.m in Sources */,
+				8A00000524AB000000000001 /* ViewController.m in Sources */,
+				8A00000724AB000000000001 /* SKOTankBuilder.m in Sources */,
+				8A00000924AB000000000001 /* SKOEventEngine.m in Sources */,
+				8A00000B24AB000000000001 /* SKOCommon.m in Sources */,
+				8A00110424AB000000000001 /* SKOHelpWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A00009524AB000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0010C524AB000000000001 /* ViewController.m in Sources */,
+				8A0010C624AB000000000001 /* SKOTankBuilder.m in Sources */,
+				8A0010C724AB000000000001 /* SKOEventEngine.m in Sources */,
+				8A0010C824AB000000000001 /* SKOCommon.m in Sources */,
+				8A0010C924AB000000000001 /* SKOTankBuilderTests.m in Sources */,
+				8A0010CA24AB000000000001 /* SKOEventEngineTests.m in Sources */,
+				8A0010CB24AB000000000001 /* ViewControllerTests.m in Sources */,
+				8A00110524AB000000000001 /* SKOHelpWindowController.m in Sources */,
+				8A00110624AB000000000001 /* SKOHelpWindowControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8A00007024AB000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				WARNING_CFLAGS = "-Wno-unused-variable";
+			};
+			name = Debug;
+		};
+		8A00007124AB000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wno-unused-variable";
+			};
+			name = Release;
+		};
+		8A00009324AB000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "-";
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/SuperKamiokande";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = science.superkamiokande.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		8A00009424AB000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "-";
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/SuperKamiokande";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = science.superkamiokande.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		8A00007224AB000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SuperKamiokande/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = science.superkamiokande.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A00007324AB000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SuperKamiokande/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = science.superkamiokande.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A00006124AB000000000001 /* Build configuration list for PBXProject "SuperKamiokande" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A00007024AB000000000001 /* Debug */,
+				8A00007124AB000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A00005124AB000000000001 /* Build configuration list for PBXNativeTarget "SuperKamiokande" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A00007224AB000000000001 /* Debug */,
+				8A00007324AB000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A00009224AB000000000001 /* Build configuration list for PBXNativeTarget "SuperKamiokandeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A00009324AB000000000001 /* Debug */,
+				8A00009424AB000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A00006024AB000000000001 /* Project object */;
+}
