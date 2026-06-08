@@ -1,0 +1,19 @@
+name: SuperKamiokande
+
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "17.0"
+
+targets:
+  SuperKamiokande:
+    type: application
+    platform: iOS
+    sources:
+      - path: SuperKamiokande
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.SuperKamiokande
+        SWIFT_VERSION: "5.0"
+        GENERATE_INFOPLIST_FILE: YES
+

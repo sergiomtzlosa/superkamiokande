@@ -3,423 +3,359 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A00000124AB000000000001 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00000224AB000000000001 /* main.m */; };
-		8A00000324AB000000000001 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00000424AB000000000001 /* AppDelegate.m */; };
-		8A00000524AB000000000001 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00000624AB000000000001 /* ViewController.m */; };
-		8A00000724AB000000000001 /* SKOTankBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00000824AB000000000001 /* SKOTankBuilder.m */; };
-		8A00000924AB000000000001 /* SKOEventEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00000A24AB000000000001 /* SKOEventEngine.m */; };
-		8A00000B24AB000000000001 /* SKOCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00000C24AB000000000001 /* SKOCommon.m */; };
-		8A00000F24AB000000000001 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8A00001024AB000000000001 /* AppIcon.icns */; };
-		8A00008124AB000000000001 /* CavernRock.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A0010A124AB000000000001 /* CavernRock.png */; };
-		8A00008224AB000000000001 /* WaterSurface.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A0010A224AB000000000001 /* WaterSurface.png */; };
-		8A00008324AB000000000001 /* CavernEnvironment.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A0010A324AB000000000001 /* CavernEnvironment.jpg */; };
-		8A00110424AB000000000001 /* SKOHelpWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00110224AB000000000001 /* SKOHelpWindowController.m */; };
-		8A00110524AB000000000001 /* SKOHelpWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00110224AB000000000001 /* SKOHelpWindowController.m */; };
-		8A00110624AB000000000001 /* SKOHelpWindowControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00110324AB000000000001 /* SKOHelpWindowControllerTests.m */; };
-		8A0010C524AB000000000001 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00000624AB000000000001 /* ViewController.m */; };
-		8A0010C624AB000000000001 /* SKOTankBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00000824AB000000000001 /* SKOTankBuilder.m */; };
-		8A0010C724AB000000000001 /* SKOEventEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00000A24AB000000000001 /* SKOEventEngine.m */; };
-		8A0010C824AB000000000001 /* SKOCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00000C24AB000000000001 /* SKOCommon.m */; };
-		8A0010C924AB000000000001 /* SKOTankBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0010C124AB000000000001 /* SKOTankBuilderTests.m */; };
-		8A0010CA24AB000000000001 /* SKOEventEngineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0010C224AB000000000001 /* SKOEventEngineTests.m */; };
-		8A0010CB24AB000000000001 /* ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0010C324AB000000000001 /* ViewControllerTests.m */; };
-		8A0010CC24AB000000000001 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0010D124AB000000000001 /* XCTest.framework */; };
+		108400B57DC886EBEC683431 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F035F011862A31B18AF6730D /* ViewController.m */; };
+		18301FF5EB151BC8C3885AAF /* SKOEventEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = A35D1CDE917681E6355D940C /* SKOEventEngine.m */; };
+		39FF9EB0A35ABB01D674F844 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C87185D5428CE365518B2C26 /* main.m */; };
+		4E2F1A6D677A03D6740B4C23 /* SKOHelpWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E056E6B39F212D47A060A /* SKOHelpWindowController.m */; };
+		551BF4F1E09ABDDEEE7F2E44 /* SKOCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5E55746AE0D66D5975D0E4 /* SKOCommon.m */; };
+		6A8A5437EF94679BF5976A25 /* CavernEnvironment.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2FA348612CF9E1568BA4893 /* CavernEnvironment.jpg */; };
+		7BED5827B350BFD807180713 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F25E47F082D95EDEB9C26905 /* AppIcon.icns */; };
+		7D13B4E613061CD00C3D88EA /* TankSteel.png in Resources */ = {isa = PBXBuildFile; fileRef = A9512DA1DB866121C1DAE1C0 /* TankSteel.png */; };
+		9776F6BF5A8F66450E2BD20B /* WaterSurface.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A18D769921665AFDC73CCDE /* WaterSurface.png */; };
+		BAA71D9AE1E4AF826444871D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0765F733552B1BFA362742 /* AppDelegate.m */; };
+		C88F9097DD05DBFD63E30070 /* CavernRock.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FD2564EF6ED57C0DFABDB10 /* CavernRock.png */; };
+		E345659B9A078A4E16CB1B2E /* SKOTankBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F98F3F341DECF0292419737 /* SKOTankBuilder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8A00001124AB000000000001 /* SuperKamiokande.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperKamiokande.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A00009124AB000000000001 /* SuperKamiokandeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperKamiokandeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A00000224AB000000000001 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8A00000424AB000000000001 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8A00000624AB000000000001 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8A00000824AB000000000001 /* SKOTankBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKOTankBuilder.m; sourceTree = "<group>"; };
-		8A00000A24AB000000000001 /* SKOEventEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKOEventEngine.m; sourceTree = "<group>"; };
-		8A00000C24AB000000000001 /* SKOCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKOCommon.m; sourceTree = "<group>"; };
-		8A00000E24AB000000000001 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A00001024AB000000000001 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
-		8A00002024AB000000000001 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8A00002124AB000000000001 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8A00002224AB000000000001 /* SKOTankBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKOTankBuilder.h; sourceTree = "<group>"; };
-		8A00002324AB000000000001 /* SKOEventEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKOEventEngine.h; sourceTree = "<group>"; };
-		8A00002424AB000000000001 /* SKOCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKOCommon.h; sourceTree = "<group>"; };
-		8A00110124AB000000000001 /* SKOHelpWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKOHelpWindowController.h; sourceTree = "<group>"; };
-		8A00110224AB000000000001 /* SKOHelpWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKOHelpWindowController.m; sourceTree = "<group>"; };
-		8A00110324AB000000000001 /* SKOHelpWindowControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKOHelpWindowControllerTests.m; sourceTree = "<group>"; };
-		8A0010A124AB000000000001 /* CavernRock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CavernRock.png; sourceTree = "<group>"; };
-		8A0010A224AB000000000001 /* WaterSurface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WaterSurface.png; sourceTree = "<group>"; };
-		8A0010A324AB000000000001 /* CavernEnvironment.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CavernEnvironment.jpg; sourceTree = "<group>"; };
-		8A0010C124AB000000000001 /* SKOTankBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKOTankBuilderTests.m; sourceTree = "<group>"; };
-		8A0010C224AB000000000001 /* SKOEventEngineTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKOEventEngineTests.m; sourceTree = "<group>"; };
-		8A0010C324AB000000000001 /* ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
-		8A0010D124AB000000000001 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = System/Library/Frameworks/XCTest.framework; sourceTree = SDKROOT; };
+		0FD2564EF6ED57C0DFABDB10 /* CavernRock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CavernRock.png; sourceTree = "<group>"; };
+		1ABE2FF313FEED00E22775D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A18D769921665AFDC73CCDE /* WaterSurface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WaterSurface.png; sourceTree = "<group>"; };
+		445AFDD8C48D00B408C3A6D6 /* SuperKamiokande.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SuperKamiokande.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		519E056E6B39F212D47A060A /* SKOHelpWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKOHelpWindowController.m; sourceTree = "<group>"; };
+		5F98F3F341DECF0292419737 /* SKOTankBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKOTankBuilder.m; sourceTree = "<group>"; };
+		65F1919D00C825609B475FE2 /* SKOCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKOCommon.h; sourceTree = "<group>"; };
+		67CFAEED0C9C66F616CA4764 /* SKOHelpWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKOHelpWindowController.h; sourceTree = "<group>"; };
+		7C0765F733552B1BFA362742 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F5E55746AE0D66D5975D0E4 /* SKOCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKOCommon.m; sourceTree = "<group>"; };
+		A35D1CDE917681E6355D940C /* SKOEventEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKOEventEngine.m; sourceTree = "<group>"; };
+		A9512DA1DB866121C1DAE1C0 /* TankSteel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TankSteel.png; sourceTree = "<group>"; };
+		C87185D5428CE365518B2C26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF065DBD39991DE4CD75CD16 /* SKOEventEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKOEventEngine.h; sourceTree = "<group>"; };
+		D2FA348612CF9E1568BA4893 /* CavernEnvironment.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CavernEnvironment.jpg; sourceTree = "<group>"; };
+		E055C661109552B07AD80971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F035F011862A31B18AF6730D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F25E47F082D95EDEB9C26905 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		FBCC3801A4D839E9EDC1FFCA /* SKOTankBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKOTankBuilder.h; sourceTree = "<group>"; };
+		FFF4C101600BC045E0EEF9E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		8A00003024AB000000000001 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8A00009624AB000000000001 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A0010CC24AB000000000001 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
-		8A00004024AB000000000001 = {
+		3517D502E752DF086FEA252B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8A00004124AB000000000001 /* SuperKamiokande */,
-				8A0010D024AB000000000001 /* SuperKamiokandeTests */,
-				8A00004224AB000000000001 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		8A00004124AB000000000001 /* SuperKamiokande */ = {
-			isa = PBXGroup;
-			children = (
-				8A00000224AB000000000001 /* main.m */,
-				8A00002024AB000000000001 /* AppDelegate.h */,
-				8A00000424AB000000000001 /* AppDelegate.m */,
-				8A00002124AB000000000001 /* ViewController.h */,
-				8A00000624AB000000000001 /* ViewController.m */,
-				8A00002224AB000000000001 /* SKOTankBuilder.h */,
-				8A00000824AB000000000001 /* SKOTankBuilder.m */,
-				8A00002324AB000000000001 /* SKOEventEngine.h */,
-				8A00000A24AB000000000001 /* SKOEventEngine.m */,
-				8A00002424AB000000000001 /* SKOCommon.h */,
-				8A00000C24AB000000000001 /* SKOCommon.m */,
-				8A00110124AB000000000001 /* SKOHelpWindowController.h */,
-				8A00110224AB000000000001 /* SKOHelpWindowController.m */,
-				8A00000E24AB000000000001 /* Info.plist */,
-				8A00001024AB000000000001 /* AppIcon.icns */,
-				8A0010A024AB000000000001 /* Textures */,
-			);
-			path = SuperKamiokande;
-			sourceTree = "<group>";
-		};
-		8A0010A024AB000000000001 /* Textures */ = {
-			isa = PBXGroup;
-			children = (
-				8A0010A124AB000000000001 /* CavernRock.png */,
-				8A0010A224AB000000000001 /* WaterSurface.png */,
-				8A0010A324AB000000000001 /* CavernEnvironment.jpg */,
-			);
-			path = Textures;
-			sourceTree = "<group>";
-		};
-		8A00004224AB000000000001 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8A00001124AB000000000001 /* SuperKamiokande.app */,
-				8A00009124AB000000000001 /* SuperKamiokandeTests.xctest */,
+				445AFDD8C48D00B408C3A6D6 /* SuperKamiokande.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8A0010D024AB000000000001 /* SuperKamiokandeTests */ = {
+		392234071B4786FDAAD900CA /* Textures */ = {
 			isa = PBXGroup;
 			children = (
-				8A0010C124AB000000000001 /* SKOTankBuilderTests.m */,
-				8A0010C224AB000000000001 /* SKOEventEngineTests.m */,
-				8A0010C324AB000000000001 /* ViewControllerTests.m */,
-				8A00110324AB000000000001 /* SKOHelpWindowControllerTests.m */,
+				D2FA348612CF9E1568BA4893 /* CavernEnvironment.jpg */,
+				0FD2564EF6ED57C0DFABDB10 /* CavernRock.png */,
+				A9512DA1DB866121C1DAE1C0 /* TankSteel.png */,
+				3A18D769921665AFDC73CCDE /* WaterSurface.png */,
 			);
-			path = SuperKamiokandeTests;
+			path = Textures;
+			sourceTree = "<group>";
+		};
+		8232966037803C6A6DA7BB4B /* SuperKamiokande */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE2FF313FEED00E22775D2 /* AppDelegate.h */,
+				7C0765F733552B1BFA362742 /* AppDelegate.m */,
+				F25E47F082D95EDEB9C26905 /* AppIcon.icns */,
+				E055C661109552B07AD80971 /* Info.plist */,
+				C87185D5428CE365518B2C26 /* main.m */,
+				65F1919D00C825609B475FE2 /* SKOCommon.h */,
+				9F5E55746AE0D66D5975D0E4 /* SKOCommon.m */,
+				CF065DBD39991DE4CD75CD16 /* SKOEventEngine.h */,
+				A35D1CDE917681E6355D940C /* SKOEventEngine.m */,
+				67CFAEED0C9C66F616CA4764 /* SKOHelpWindowController.h */,
+				519E056E6B39F212D47A060A /* SKOHelpWindowController.m */,
+				FBCC3801A4D839E9EDC1FFCA /* SKOTankBuilder.h */,
+				5F98F3F341DECF0292419737 /* SKOTankBuilder.m */,
+				FFF4C101600BC045E0EEF9E2 /* ViewController.h */,
+				F035F011862A31B18AF6730D /* ViewController.m */,
+				392234071B4786FDAAD900CA /* Textures */,
+			);
+			path = SuperKamiokande;
+			sourceTree = "<group>";
+		};
+		95CC9F83E36A46287474361B = {
+			isa = PBXGroup;
+			children = (
+				8232966037803C6A6DA7BB4B /* SuperKamiokande */,
+				3517D502E752DF086FEA252B /* Products */,
+			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8A00009024AB000000000001 /* SuperKamiokandeTests */ = {
+		9CED0B38771787965F82113F /* SuperKamiokande */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A00009224AB000000000001 /* Build configuration list for PBXNativeTarget "SuperKamiokandeTests" */;
+			buildConfigurationList = 9515345359C25192473EF85D /* Build configuration list for PBXNativeTarget "SuperKamiokande" */;
 			buildPhases = (
-				8A00009524AB000000000001 /* Sources */,
-				8A00009624AB000000000001 /* Frameworks */,
-				8A00009724AB000000000001 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SuperKamiokandeTests;
-			productName = SuperKamiokandeTests;
-			productReference = 8A00009124AB000000000001 /* SuperKamiokandeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		8A00005024AB000000000001 /* SuperKamiokande */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8A00005124AB000000000001 /* Build configuration list for PBXNativeTarget "SuperKamiokande" */;
-			buildPhases = (
-				8A00005224AB000000000001 /* Sources */,
-				8A00003024AB000000000001 /* Frameworks */,
-				8A00005324AB000000000001 /* Resources */,
+				B484BE6D4949FEDCEDAA5E12 /* Sources */,
+				30DC063C39D04AC5E435121E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SuperKamiokande;
+			packageProductDependencies = (
+			);
 			productName = SuperKamiokande;
-			productReference = 8A00001124AB000000000001 /* SuperKamiokande.app */;
+			productReference = 445AFDD8C48D00B408C3A6D6 /* SuperKamiokande.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8A00006024AB000000000001 /* Project object */ = {
+		8E6D3F602F42D6B703F1C2C1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1500;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					8A00005024AB000000000001 = {
-						CreatedOnToolsVersion = 14.0;
-					};
 				};
 			};
-			buildConfigurationList = 8A00006124AB000000000001 /* Build configuration list for PBXProject "SuperKamiokande" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = 9F0274551376C4C686CA3088 /* Build configuration list for PBXProject "SuperKamiokande" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
-			mainGroup = 8A00004024AB000000000001;
-			productRefGroup = 8A00004224AB000000000001 /* Products */;
+			mainGroup = 95CC9F83E36A46287474361B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3517D502E752DF086FEA252B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8A00005024AB000000000001 /* SuperKamiokande */,
-				8A00009024AB000000000001 /* SuperKamiokandeTests */,
+				9CED0B38771787965F82113F /* SuperKamiokande */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8A00005324AB000000000001 /* Resources */ = {
+		30DC063C39D04AC5E435121E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A00000F24AB000000000001 /* AppIcon.icns in Resources */,
-				8A00008124AB000000000001 /* CavernRock.png in Resources */,
-				8A00008224AB000000000001 /* WaterSurface.png in Resources */,
-				8A00008324AB000000000001 /* CavernEnvironment.jpg in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8A00009724AB000000000001 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				7BED5827B350BFD807180713 /* AppIcon.icns in Resources */,
+				6A8A5437EF94679BF5976A25 /* CavernEnvironment.jpg in Resources */,
+				C88F9097DD05DBFD63E30070 /* CavernRock.png in Resources */,
+				7D13B4E613061CD00C3D88EA /* TankSteel.png in Resources */,
+				9776F6BF5A8F66450E2BD20B /* WaterSurface.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8A00005224AB000000000001 /* Sources */ = {
+		B484BE6D4949FEDCEDAA5E12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A00000124AB000000000001 /* main.m in Sources */,
-				8A00000324AB000000000001 /* AppDelegate.m in Sources */,
-				8A00000524AB000000000001 /* ViewController.m in Sources */,
-				8A00000724AB000000000001 /* SKOTankBuilder.m in Sources */,
-				8A00000924AB000000000001 /* SKOEventEngine.m in Sources */,
-				8A00000B24AB000000000001 /* SKOCommon.m in Sources */,
-				8A00110424AB000000000001 /* SKOHelpWindowController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8A00009524AB000000000001 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A0010C524AB000000000001 /* ViewController.m in Sources */,
-				8A0010C624AB000000000001 /* SKOTankBuilder.m in Sources */,
-				8A0010C724AB000000000001 /* SKOEventEngine.m in Sources */,
-				8A0010C824AB000000000001 /* SKOCommon.m in Sources */,
-				8A0010C924AB000000000001 /* SKOTankBuilderTests.m in Sources */,
-				8A0010CA24AB000000000001 /* SKOEventEngineTests.m in Sources */,
-				8A0010CB24AB000000000001 /* ViewControllerTests.m in Sources */,
-				8A00110524AB000000000001 /* SKOHelpWindowController.m in Sources */,
-				8A00110624AB000000000001 /* SKOHelpWindowControllerTests.m in Sources */,
+				BAA71D9AE1E4AF826444871D /* AppDelegate.m in Sources */,
+				551BF4F1E09ABDDEEE7F2E44 /* SKOCommon.m in Sources */,
+				18301FF5EB151BC8C3885AAF /* SKOEventEngine.m in Sources */,
+				4E2F1A6D677A03D6740B4C23 /* SKOHelpWindowController.m in Sources */,
+				E345659B9A078A4E16CB1B2E /* SKOTankBuilder.m in Sources */,
+				108400B57DC886EBEC683431 /* ViewController.m in Sources */,
+				39FF9EB0A35ABB01D674F844 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8A00007024AB000000000001 /* Debug */ = {
+		8A5B7EA25778181B67A8DD5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
 					"$(inherited)",
+					"DEBUG=1",
 				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				SDKROOT = macosx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				WARNING_CFLAGS = "-Wno-unused-variable";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		8A00007124AB000000000001 /* Release */ = {
+		9DC5A6C04F5121A9D9E63599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SuperKamiokande/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SuperKamiokande;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6A5F533A2D30E6A9EB74148 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				SDKROOT = macosx;
-				WARNING_CFLAGS = "-Wno-unused-variable";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		8A00009324AB000000000001 /* Debug */ = {
+		CB2061E3B8E9FC2CF6DDE28B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CODE_SIGN_IDENTITY = "-";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GENERATE_INFOPLIST_FILE = YES;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/SuperKamiokande";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = science.superkamiokande.tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-			};
-			name = Debug;
-		};
-		8A00009424AB000000000001 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CODE_SIGN_IDENTITY = "-";
-				GENERATE_INFOPLIST_FILE = YES;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/SuperKamiokande";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = science.superkamiokande.tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-			};
-			name = Release;
-		};
-		8A00007224AB000000000001 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SuperKamiokande/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_BUNDLE_IDENTIFIER = science.superkamiokande.app;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		8A00007324AB000000000001 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = SuperKamiokande/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_BUNDLE_IDENTIFIER = science.superkamiokande.app;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SuperKamiokande;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8A00006124AB000000000001 /* Build configuration list for PBXProject "SuperKamiokande" */ = {
+		9515345359C25192473EF85D /* Build configuration list for PBXNativeTarget "SuperKamiokande" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A00007024AB000000000001 /* Debug */,
-				8A00007124AB000000000001 /* Release */,
+				9DC5A6C04F5121A9D9E63599 /* Debug */,
+				CB2061E3B8E9FC2CF6DDE28B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		8A00005124AB000000000001 /* Build configuration list for PBXNativeTarget "SuperKamiokande" */ = {
+		9F0274551376C4C686CA3088 /* Build configuration list for PBXProject "SuperKamiokande" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A00007224AB000000000001 /* Debug */,
-				8A00007324AB000000000001 /* Release */,
+				8A5B7EA25778181B67A8DD5B /* Debug */,
+				B6A5F533A2D30E6A9EB74148 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8A00009224AB000000000001 /* Build configuration list for PBXNativeTarget "SuperKamiokandeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8A00009324AB000000000001 /* Debug */,
-				8A00009424AB000000000001 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8A00006024AB000000000001 /* Project object */;
+	rootObject = 8E6D3F602F42D6B703F1C2C1 /* Project object */;
 }
