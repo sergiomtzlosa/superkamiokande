@@ -4,6 +4,8 @@ A native macOS app (Objective-C + AppKit + SceneKit) that renders the
 Super-Kamiokande (Super-K) neutrino detector in 3D, simulates its operation,
 and lets the user configure it with sliders and buttons.
 
+![Superkamiokande](preview.png)
+
 The UI is entirely programmatic — no storyboard or XIB — so the project stays
 small, deterministic, and easy to audit.
 
