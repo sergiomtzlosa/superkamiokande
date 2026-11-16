@@ -10,8 +10,8 @@ permissions:
 
 env:
   PROJECT_NAME: SuperKamiokande.xcodeproj
-  SCHEME: superkamiokande
-  APP_NAME: superkamiokande
+  SCHEME: SuperKamiokande
+  APP_NAME: SuperKamiokande
   CONFIGURATION: Release
 
 jobs:
@@ -20,11 +20,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Install XcodeGen and regenerate project
-        run: |
-          brew install xcodegen
-          xcodegen generate
 
       - name: Build (Release)
         run: |

@@ -1349,10 +1349,10 @@ static const CGFloat kLabelHeight = 40.0;
     ]];
     [self.view layoutSubtreeIfNeeded];
 
-    ((SKOFlatButton *)self.cutawayButton).active = self.cutawayOn;
-    ((SKOFlatButton *)self.rotateButton).active = self.autoRotate;
-    ((SKOFlatButton *)self.explodeButton).active = self.exploded;
-    ((SKOFlatButton *)self.labelsButton).active = self.labelsVisible;
+    self.cutawayButton.active = self.cutawayOn;
+    self.rotateButton.active = self.autoRotate;
+    self.explodeButton.active = self.exploded;
+    self.labelsButton.active = self.labelsVisible;
 }
 
 - (void)updateSidebarRevealPosition
@@ -1624,10 +1624,10 @@ static const CGFloat kLabelHeight = 40.0;
 
 - (void)refreshToggleButtons
 {
-    ((SKOFlatButton *)self.cutawayButton).active = self.cutawayOn;
-    ((SKOFlatButton *)self.rotateButton).active = self.autoRotate;
-    ((SKOFlatButton *)self.explodeButton).active = self.exploded;
-    ((SKOFlatButton *)self.labelsButton).active = self.labelsVisible;
+    self.cutawayButton.active = self.cutawayOn;
+    self.rotateButton.active = self.autoRotate;
+    self.explodeButton.active = self.exploded;
+    self.labelsButton.active = self.labelsVisible;
 }
 
 - (void)engineDidSpawnEventWithEnergy:(CGFloat)energyGeV
@@ -1659,9 +1659,9 @@ static const CGFloat kLabelHeight = 40.0;
     }
     [self refreshHUD];
     if (self.engine.running) {
-        [(SKOFlatButton *)self.runButton setStyledTitle:@"Pause simulation" symbol:@"pause.fill"];
+        [self.runButton setStyledTitle:@"Pause simulation" symbol:@"pause.fill"];
     } else {
-        [(SKOFlatButton *)self.runButton setStyledTitle:@"Resume simulation" symbol:@"play.fill"];
+        [self.runButton setStyledTitle:@"Resume simulation" symbol:@"play.fill"];
     }
 }
 

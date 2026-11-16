@@ -3,6 +3,7 @@
 #import "SKOEventEngine.h"
 
 @class SKOHelpWindowController;
+@class SKOFlatButton;
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -41,15 +42,15 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSSlider *cutawaySlider;
 @property (nonatomic, strong) NSSlider *rotationSlider;
 
-@property (nonatomic, strong) NSButton *runButton;
+@property (nonatomic, strong) SKOFlatButton *runButton;
 @property (nonatomic, strong) NSButton *resetButton;
 @property (nonatomic, strong) NSButton *cameraButton;
-@property (nonatomic, strong) NSButton *cutawayButton;
-@property (nonatomic, strong) NSButton *rotateButton;
-@property (nonatomic, strong) NSButton *explodeButton;
-@property (nonatomic, strong) NSButton *centerButton;
-@property (nonatomic, strong) NSButton *labelsButton;
-@property (nonatomic, strong) NSButton *helpButton;
+@property (nonatomic, strong) SKOFlatButton *cutawayButton;
+@property (nonatomic, strong) SKOFlatButton *rotateButton;
+@property (nonatomic, strong) SKOFlatButton *explodeButton;
+@property (nonatomic, strong) SKOFlatButton *centerButton;
+@property (nonatomic, strong) SKOFlatButton *labelsButton;
+@property (nonatomic, strong) SKOFlatButton *helpButton;
 
 @property (nonatomic, strong, nullable) SKOHelpWindowController *helpWindowController;
 
